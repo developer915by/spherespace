@@ -151,6 +151,8 @@ GameObject:
   m_Component:
   - component: {fileID: 139617874}
   - component: {fileID: 139617873}
+  - component: {fileID: 139617876}
+  - component: {fileID: 139617875}
   m_Layer: 0
   m_Name: Play
   m_TagString: Untagged
@@ -214,6 +216,34 @@ Transform:
   m_Father: {fileID: 19617675}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &139617875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 139617872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf06f7ab2977e14690070e5087313ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer_blue: {fileID: 21300000, guid: c037add3bf5c14f4783f1676fdc56722, type: 3}
+  layer_red: {fileID: 21300000, guid: 6677cc5ac1198d743a68d1f353b2c3cf, type: 3}
+--- !u!58 &139617876
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 139617872}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.24
 --- !u!1 &182109555
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,6 +403,8 @@ GameObject:
   m_Component:
   - component: {fileID: 246239386}
   - component: {fileID: 246239385}
+  - component: {fileID: 246239388}
+  - component: {fileID: 246239387}
   m_Layer: 0
   m_Name: How to
   m_TagString: Untagged
@@ -435,6 +467,34 @@ Transform:
   m_Father: {fileID: 19617675}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &246239387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 246239384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf06f7ab2977e14690070e5087313ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer_blue: {fileID: 21300000, guid: 72cd04b5f877351449a55ef662f0ebe9, type: 3}
+  layer_red: {fileID: 21300000, guid: 6677cc5ac1198d743a68d1f353b2c3cf, type: 3}
+--- !u!58 &246239388
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 246239384}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00000047683716, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.24
 --- !u!1 &332858769
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,9 +667,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017a992c2d1011f42b2f6414cab8f67f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spead: 0.5
+  spead: 1
   tilt: 50
-  target: {x: 0, y: 1.5, z: 0}
+  target: {x: 0, y: 3, z: 0}
 --- !u!23 &410490421
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -668,7 +728,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 410490419}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 3.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -915,6 +975,8 @@ GameObject:
   m_Component:
   - component: {fileID: 696701581}
   - component: {fileID: 696701580}
+  - component: {fileID: 696701583}
+  - component: {fileID: 696701582}
   m_Layer: 0
   m_Name: Ads
   m_TagString: Untagged
@@ -978,6 +1040,34 @@ Transform:
   m_Father: {fileID: 19617675}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &696701582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696701579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf06f7ab2977e14690070e5087313ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer_blue: {fileID: 21300000, guid: c037add3bf5c14f4783f1676fdc56722, type: 3}
+  layer_red: {fileID: 21300000, guid: 6677cc5ac1198d743a68d1f353b2c3cf, type: 3}
+--- !u!58 &696701583
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696701579}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.24
 --- !u!1 &783816857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,6 +1237,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1010384308}
   - component: {fileID: 1010384307}
+  - component: {fileID: 1010384310}
+  - component: {fileID: 1010384309}
   m_Layer: 0
   m_Name: Restore
   m_TagString: Untagged
@@ -1210,6 +1302,34 @@ Transform:
   m_Father: {fileID: 19617675}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1010384309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1010384306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf06f7ab2977e14690070e5087313ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer_blue: {fileID: 21300000, guid: c037add3bf5c14f4783f1676fdc56722, type: 3}
+  layer_red: {fileID: 21300000, guid: 6677cc5ac1198d743a68d1f353b2c3cf, type: 3}
+--- !u!58 &1010384310
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1010384306}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.24
 --- !u!1 &1360417957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1435,6 +1555,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1660565760}
   - component: {fileID: 1660565759}
+  - component: {fileID: 1660565762}
+  - component: {fileID: 1660565761}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -1499,6 +1621,34 @@ Transform:
   m_Father: {fileID: 19617675}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1660565761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1660565758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf06f7ab2977e14690070e5087313ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer_blue: {fileID: 21300000, guid: c037add3bf5c14f4783f1676fdc56722, type: 3}
+  layer_red: {fileID: 21300000, guid: 6677cc5ac1198d743a68d1f353b2c3cf, type: 3}
+--- !u!58 &1660565762
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1660565758}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.24
 --- !u!1 &2112840275
 GameObject:
   m_ObjectHideFlags: 0
@@ -1579,6 +1729,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2113077491}
   - component: {fileID: 2113077490}
+  - component: {fileID: 2113077493}
+  - component: {fileID: 2113077492}
   m_Layer: 0
   m_Name: Rating
   m_TagString: Untagged
@@ -1642,3 +1794,31 @@ Transform:
   m_Father: {fileID: 19617675}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2113077492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2113077489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf06f7ab2977e14690070e5087313ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer_blue: {fileID: 21300000, guid: c037add3bf5c14f4783f1676fdc56722, type: 3}
+  layer_red: {fileID: 21300000, guid: 6677cc5ac1198d743a68d1f353b2c3cf, type: 3}
+--- !u!58 &2113077493
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2113077489}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.24
