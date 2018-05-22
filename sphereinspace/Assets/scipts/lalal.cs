@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using CnControls;
+//using CnControls;
 using UnityEngine.UI;
 
 public class lalal : MonoBehaviour {
@@ -13,7 +13,7 @@ public class lalal : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-		position = new Vector3(CnInputManager.GetAxis("Horizontal"), CnInputManager.GetAxis("Vertical"), 0f);
+		//position = new Vector3(CnInputManager.GetAxis("Horizontal"), CnInputManager.GetAxis("Vertical"), 0f);
 
 		transform.position += position*Time.deltaTime*5;
 		transform.Rotate (Vector3.one * Time.deltaTime * titl);
